@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import contaactusGraphic from  '@/assets/ContactUsPageGraphic.png'
 import {motion} from "framer-motion"
 import { useForm } from 'react-hook-form'
@@ -15,7 +15,7 @@ interface formData{
 }
 
 const Contact = ({setSelectedPage}: Props) => {
- const {register,formState:{errors},trigger,handleSubmit}=useForm<formData>()
+ const {register,formState:{errors},handleSubmit}=useForm<formData>()
 
   const inputcss="p-2 w-full focus:outline-none rounded-md focus:ring-0 bg-red-300 text-white placeholder:text-white mb-10"
 

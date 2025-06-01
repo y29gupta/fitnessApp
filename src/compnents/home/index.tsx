@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import HomePageGraphic from '@/assets/HomePageGraphic.png'
 import HomePageText from '@/assets/HomePageText.png'
 import SponsorRedBull from "@/assets/SponsorRedBull.png";

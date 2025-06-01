@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import  { useEffect, useRef, useState } from 'react'
 import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/24/solid'
 import image1 from "@/assets/image1.png";
 import image2 from "@/assets/image2.png";

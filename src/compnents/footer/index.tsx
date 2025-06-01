@@ -1,9 +1,8 @@
-import React from 'react'
+
 import Logo from '@/assets/Logo.png'
 
-type Props = {}
 
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div className='footer w-full bg-[#ffe1e0]'>
       <div className=' md:flex w-5/6  mx-auto py-14 gap-14  justify-between'>
