@@ -16,7 +16,7 @@ type Props = {
 const Navbar = ({ selectedPage, setSelectedPage }: Props) => {
     const [isOpen, setIsOpen] = useState<boolean>(false)
     const [istopPage, setIstopPage] = useState<boolean>(true)
-    const flexBetween = "flex items-center justify-between";
+    // const flexBetween = "flex items-center justify-between";
 
     useEffect(() => {
         const scrolling = () => {
